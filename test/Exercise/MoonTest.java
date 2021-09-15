@@ -11,6 +11,7 @@ class MoonTest {
     void planetAMoonOrbits(){
 
         //Arrange
+        //String planetName = "Earth";
         Moon moon = new Moon("Moon","Earth");
 
         //Assert
@@ -18,7 +19,6 @@ class MoonTest {
 
         //Assert
         assertEquals("Earth",planetBeingOrbited);
-
 
     }
 
